@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<style>
+* {
+  box-sizing: border-box;
+}
+html, body {
+  background-color: grey;
+ 
+ 
+}
+  
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+  position: relative;
+  overflow: hidden;
+}
+
+#slidesId .mySlides {
+  height:400px;
+ 
+}
+#text, #ashText, .textColor {
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  margin-top: 70px;
+  margin-left: 100px;
+  width:80%;
+}
+
+.wholeTable {
+    color: black;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+   }
+
+   table, td, th, tr {
+  color: white;
+  text-align: left;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+
+}
+td, th, tr{
+ width: 500px;
+}
+.textHeadTable:hover {
+  background: blueviolet;
+  cursor: pointer; 
+  transition: background .5s; 
+  color: white;
+}
+.textTable:hover {
+  background: white;
+  cursor: pointer; 
+  transition: background .5s; 
+  color: white;
+}
+.footer {
+  position: relative;
+  overflow: hidden;
+}
+.footer .footerOne {
+  height:100%;
+  width: 1000;
+  height: 700px;
+  }
+  .footer .footerOne {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+th, #buck, #frost, #blackbeard, #valkyrie, #capitao, #caveira, #hibana, #echo, #jackal, #mira, #ying, #lesion, #zofia, #ela, #dokkaebi, #vigil, #maestro, #alibi, #maverick, #clash, #nomad, #kaid, #gridlock, #mozzie, recrut {
+  text-align: center;
+}
+
+</style>
+<div class="slideshow-container" id="slidesId">
+        <div class="mySlides" id="slideOne">
+          <img src="imageHeader15.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides" id="slideTwo">
+            <img src="imageHeader14.jpg" style="width:100%">
+        
+        </div>
+
+        <div class="mySlides" id="slideThree">
+            <img src="imageHeader3.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides" id="slideFour">
+            <img src="imageHeader8.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides" id="slideFive">
+            <img src="imageHeader7.jpg" style="width:100%">
+          </div>  
+</div>
+
+<div id="text">
+      <p>
+          There are several objectives for the round:<br>
+           <br>Hostage extraction: the objective is to extract the hostage from the building to a secure area outside.
+          Hostage protection: the objective is to eliminate opponents trying to keep the hostage in their possession.<br>
+          Zone security: the objective is to eliminate opponents or secure an area by being close to a radioactive container for a certain period of time without any opponent being in the same area. The more players in the area, the faster the security time is.<br>
+          Bomb defusing: the objective is to eliminate opponents or defuse one of the two bombs on the site.<br>
+          A round ends as soon as the objective is achieved, the entire team is killed or at the end of the time limit.
+          In each round the players are divided into two groups:<strong><a href="#operators">attackers</a></strong> and <strong><a href="#operators">defenders</a></strong>. All operators belong to <strong><a href="#operators">classes of operators</a></strong>, which are special intervention forces from several countries around the world.
+      </p>
+</div>
+
+<div class="wholeTable" id="wholeTable">
+        <table>
+                <tr>
+                    <th class="textHeadTable" id="operators">Operator's class</th>
+                    <th colspan="2" class="textHeadTable">Attackers</th>
+                    <th colspan="2" class="textHeadTable">Defenders</th>
+                    
+                </tr>
+                <tr>
+    
+                    <td id="fbiSwat" class="textTable"><a href="#ashText">FBI SWAT</a></td>
+                    <td id="ash" class="textTable"><a href="#ashText">Ash</a></td>
+                    <td id="thermite" class="textTable"><a href="#thermiteText">Thermite</a></td>
+                    <td id="castle" class="textTable"><a href="#castleText">Castle</a></td>
+                    <td id="pulse" class="textTable"><a href="#pulseText">Pulse</a></td>
+                </tr>
+                <tr>
+                    <td id="gign" class="textTable"><a href="#gignText">GIGN</a></td>
+                    <td id="twitch" class="textTable"><a href="#twitchText"> Twitch</a></td>
+                    <td id="montagne" class="textTable"><a href="#montagneText">Montagne</a></td>
+                    <td id="doc" class="textTable"><a href="#docText">Doc</a></td>
+                    <td id="rook" class="textTable"><a href="#rookText">Rock</a></td>
+                  
+                </tr>
+                <tr>
+                    <td id="spetsnaz" class="textTable"><a href="#docText">Spetsnaz</a></td>
+                    <td id="glaz" class="textTable"><a href="#glazText">Glaz</a></td>
+                    <td id="fuze" class="textTable"><a href="#fuzeText">Fuze</a></td>
+                    <td id="kapkan" class="textTable"><a href="#kapkanText">Kapkan</a></td>
+                    <td id="tachanka" class="textTable"><a href="#tachankaText">Tachanka</a></td> 
+                </tr>
+                <tr>
+                    <td id="gsg9" class="textTable"><a href="#gsg9Text">GSG 9</a></td>
+                    <td id="blitz" class="textTable"><a href="#blitz9Text">Blitz</a></td>
+                    <td id="iq" class="textTable"><a href="#iqText">IQ</a></td>
+                    <td id="jager" class="textTable"><a href="#jagerText">Jäger</a></td>
+                    <td id="bandit" class="textTable"><a href="#banditText">Bandit</a></td>
+                </tr>
+                <tr>
+                    <td id="jtf2bi" class="textTable"><a href="#jtf2biText">JTF2 BI</a></td>
+                    <td id="buck" colspan="2" class="textTable"><a href="#buckText">Buck</a></td>
+                    <td id="frost" colspan="2" class="textTable"><a href="#frostText">Frost</a></td>
+                </tr>
+                <tr>
+                    <td id="sealsdl" class="textTable"><a href="#sealsdlText">SEALs DL</a></td>
+                    <td id="blackbeard" colspan="2" class="textTable"><a href="#blackbeardText">Blackbeard</a></td>
+                    <td id="valkyrie" colspan="2" class="textTable"><a href="#valkyrieText">Valkyrie</a></td>
+                </tr>
+                <tr>
+                    <td id="bopesr" class="textTable"><a href="#bopesrText">BOPE SR</a></td>
+                    <td id="capitao" colspan="2" class="textTable"><a href="#capitaoText">Capitão</a></td>
+                    <td id="caveira" colspan="2" class="textTable"><a href="#caveiraText">Caveira</a></td>
+                </tr>
+                <tr>
+                    <td id="satrc"class="textTable"><a href="#satrcText">SAT RC</a></td>
+                    <td id="hibana"colspan="2" class="textTable"><a href="#hibanaText">Hibana</a></td>
+                    <td id="echo"colspan="2" class="textTable"><a href="#echoText">Echo</a></td>                       
+                </tr>
+                <tr>
+                    <td id="geovs" class="textTable"><a href="#geovsText">GEO VS</a></td>
+                    <td id="jackal" colspan="2" class="textTable"><a href="#jackalText">Jackal</a></td>
+                    <td id="mira" colspan="2" class="textTable"><a href="#miraText">Mira</a></td>
+                </tr>
+                <tr>
+                    <td  id="sdubo" class="textTable"><a href="#sduboText">SDU BO</a></td>
+                    <td  id="ying" colspan="2" class="textTable"><a href="#yingText">Ying</a></td>
+                    <td  id="lesion" colspan="2" class="textTable"><a href="#lesionText">Lesion</a></td>
+                </tr>
+                <tr>
+                    <td  id="grombown" class="textTable"><a href="#sduboText">GROM BOWN</a></td>
+                    <td  id="zofia" colspan="2" class="textTable"><a href="#zofiaText">Zofia</a></td>
+                    <td  id="ela" colspan="2" class="textTable"><a href="#elaText">Ela</a></td>
+                </tr>
+                <tr>
+                    <td  id="smbwn" class="textTable"><a href="#smbwnText">SMB WN</a></td>
+                    <td  id="dokkaebi" colspan="2" class="textTable" class="positionCenter"><a href="#dokkaebiText">Dokkaebi</a></td>
+                    <td  id="vigil" colspan="2" class="textTable"><a href="#vigilText">Vigil</a></td>
+                </tr>
+                <tr>
+                    <td id="cbrnchmr" class="textTable"><a href="#cbrnchmrText">CBRN CHMR</a></td>
+                    <td id="lion" class="textTable"><a href="#dokkaebiText">Lion</a></td>
+                    <td id="finka" class="textTable"><a href="#finkaText">Finka</a></td>
+                    <td colspan="2" class="textTable">-</td>
+                </tr>
+                <tr>
+                    <td id="gispb" class="textTable"><a href="#gispbText">GIS PB</a></td>
+                    <td id="maestro" colspan="2" class="textTable"><a href="#maestroText">Maestro</a></td>
+                    <td id="alibi" colspan="2" class="textTable"><a href="#alibiText">Alibi</a></td>
+                </tr>
+                <tr>
+                    <td id="gsutrgs" class="textTable"><a href="#gsutrgsText">GSUTR GS</a></td>
+                    <td id="maverick" colspan="2" class="textTable"><a href="#maverickText">Maverick</a></td>
+                    <td id="clash" colspan="2" class="textTable"><a href="#clashText">Clash</a></td>
+                <tr>
+                    <td id="gigrwb" class="textTable"><a href="#gigrwbText">GIGR WB</a></td>
+                    <td id="nomad" colspan="2" class="textTable"><a href="#nomadText">Nomad</a></td>
+                    <td id="kaid" colspan="2" class="textTable"><a href="#kaidText">Kaid</a></td>
+                </tr>
+                <tr>
+                    <td id="sasrbh" class="textTable"><a href="#sasrbhText">SASR BH</a></td>
+                    <td id="gridlock" colspan="2" class="textTable"><a href="#gridlockText">Gridlock</a></td>
+                    <td id="mozzie" colspan="2" class="textTable"><a href="#mozzieText">Mozzie</a></td>
+                </tr>
+                <tr>
+                    
+                <td id="recrut" colspan="5" class="textTable"><a href="#recrutText">Recruit</a></td>
+                    
+                </tr>
+
+        
+        </table>
+        
+</div>
+<div id="ashText" class="textColor">
+  <p>
+    <strong>Biography</strong>:<br>
+    Ash is a fast front-line agent, able to infiltrate discreetly, bypass the enemy and divert the attention of the defenders in a matter of seconds.<br>
+    <strong>Ash's skills</strong>:<br>
+    Ash can fire explosive charges from a distance on surfaces that are difficult or impossible to reach, such as high windows or ceilings. Enemies rarely expect the ground to explode under their feet, so don't hesitate to surprise them in this way. Remote charges will automatically explode when hung on a wall, so they cannot be affected by jammers, and are the best way to fight a team that has Mute in its ranks. The charge launcher is also very useful for destroying a wall from a safe distance if you expect the enemy to fire. Remember that this is not a rocket launcher and will only slightly damage other players.You can try using the charge thrower to blow up a window barricaded from below and throw a fragmentation grenade: you will probably do a lot of damage to your enemies while being protected from their fire.<br>
+    <strong>Ash's weapon</strong>:<br>
+    The M120 CREM was developed as a portable remote explosive weapon. Similar to other explosive weapons used by the US and Israeli armed forces, the M120 CREM is capable of creating openings through doors without the need to destroy hinges or locks. Compared to other infiltration methods, the M120 CREM is small and lightweight, and can be transported as a secondary weapon. The M120 CREM has been successfully used by the FBI SWAT to penetrate fortified complexes during hostage search and rescue operations.<p><br>
+   <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+</div>
+<div id="thermiteText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Trace joined the Marines after high school, serving two tours in Iraq. After his discharge, he used his GI Bill money to put himself through college at Texas A&M and earned a Bachelor Degree of Science in Chemistry. He then joined the FBI. After four years as a field agent, he transferred to FBI SWAT.<br>
+      <strong>Thermite's skills</strong>:<br>
+      Thermite is an important baseline in supporting the attacking team. Since he is one of the only agents in the game who specializes in opening breaches, losing Thermite at the beginning of the round will greatly hinder your team. Playing Thermite requires a lot of patience and leadership skills, as well as great communication with your team.<br>
+      <strong>Thermite's weapon</strong>:<br>
+      A Medium Armored Operator, Thermite is equipped with two Brimstone BC-3 Exothermic Charges. These charges can breach through any Reinforced Wall within a few seconds. Exothermic Charges can't be detonated while inside a Signal Disruptor's radius, and are destroyed on a Reinforced Wall under a Shock Wire's effect. Exothermic Charges take a bit of "heat up" time to detonate after triggered. They can also be shot through when triggered on Non-Reinforced Walls.<p><br>
+      <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="castleText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Castle's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Castle's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="pulseText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Pulse's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Pusle's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="gignText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      gign<br>
+      <strong>Castle's skills</strong>:<br>
+     gign.<br>
+      <strong>Castle's weapon</strong>:<br>
+      gign<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="twitchText">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Twitch's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Twitch's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="montagneText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Montagne's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Montagne's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="docText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Doc's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Castle's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="rookText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Rook's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Rook's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="spetsnazText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      spetsnaz.<br>
+    
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="glazText">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Glaz's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Glaz's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="fuzeText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Fuze's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Fuze's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="kapkanText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Kapkan's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Kapkan's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="tachankaText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Tachanka's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Tachanka's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="blitzText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Blitz's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Blitz's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+</div>
+<div id="iqText" class="textColor">
+  <p>
+    <strong>Biography</strong>:<br>
+    Ash is a fast front-line agent, able to infiltrate discreetly, bypass the enemy and divert the attention of the defenders in a matter of seconds.<br>
+    <strong>Ash's skills</strong>:<br>
+    Ash can fire explosive charges from a distance on surfaces that are difficult or impossible to reach, such as high windows or ceilings. Enemies rarely expect the ground to explode under their feet, so don't hesitate to surprise them in this way. Remote charges will automatically explode when hung on a wall, so they cannot be affected by jammers, and are the best way to fight a team that has Mute in its ranks. The charge launcher is also very useful for destroying a wall from a safe distance if you expect the enemy to fire. Remember that this is not a rocket launcher and will only slightly damage other players.You can try using the charge thrower to blow up a window barricaded from below and throw a fragmentation grenade: you will probably do a lot of damage to your enemies while being protected from their fire.<br>
+    <strong>Ash's weapon</strong>:<br>
+    The M120 CREM was developed as a portable remote explosive weapon. Similar to other explosive weapons used by the US and Israeli armed forces, the M120 CREM is capable of creating openings through doors without the need to destroy hinges or locks. Compared to other infiltration methods, the M120 CREM is small and lightweight, and can be transported as a secondary weapon. The M120 CREM has been successfully used by the FBI SWAT to penetrate fortified complexes during hostage search and rescue operations.<p><br>
+   <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+</div>
+<div id="jagerText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Trace joined the Marines after high school, serving two tours in Iraq. After his discharge, he used his GI Bill money to put himself through college at Texas A&M and earned a Bachelor Degree of Science in Chemistry. He then joined the FBI. After four years as a field agent, he transferred to FBI SWAT.<br>
+      <strong>Jager's skills</strong>:<br>
+      Thermite is an important baseline in supporting the attacking team. Since he is one of the only agents in the game who specializes in opening breaches, losing Thermite at the beginning of the round will greatly hinder your team. Playing Thermite requires a lot of patience and leadership skills, as well as great communication with your team.<br>
+      <strong>Jager's weapon</strong>:<br>
+      A Medium Armored Operator, Thermite is equipped with two Brimstone BC-3 Exothermic Charges. These charges can breach through any Reinforced Wall within a few seconds. Exothermic Charges can't be detonated while inside a Signal Disruptor's radius, and are destroyed on a Reinforced Wall under a Shock Wire's effect. Exothermic Charges take a bit of "heat up" time to detonate after triggered. They can also be shot through when triggered on Non-Reinforced Walls.<p><br>
+      <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="banditText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Bandit's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Bandit's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="jtf2biText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Jtf2bi<br>
+      <strong>Castle's skills</strong>:<br>
+      Castle.<br>
+      <strong>Castle's weapon</strong>:<br>
+      
+      <p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="buckText">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Buck's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Buck's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="frostText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Frost's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Frost's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="sealsdlText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      deff<br>
+      <strong>Castle's skills</strong>:<br>
+      
+     jhgk <br>
+      <strong>Castle's weapon</strong>:<br>
+      nhgj <p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="blackbeardText">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Blackbeard's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Blackbeard's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="valkyrieText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Valkyrie's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Valkyrie's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="bopesrText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      <p><strong><a href="#wholeTable"> Back to operator's table</a></p><br>
+
+  
+  <div id="capitaoText">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Capitao's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Capitao's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="caveiraText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Caveira's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Caveira's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="satrcText">
+    <p>
+      <strong>Biography</strong>:<br>
+    fhf
+     .<br>
+      <strong>Castle's weapon</strong>:<br>
+      hfjhj
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="hibanaText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Hibana's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Hibana's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="echoText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Echo's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Echo's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+</div>
+<div id="geovsText" class="textColor">
+  <p>
+    <strong>Biography</strong>:<br>
+    As while being protected from their fire.<br>
+    <strong>Ash's weapon</strong>:<br>
+     operations.<p><br>
+   <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+</div>
+<div id="jackalText">
+    <p>
+      <strong>Biography</strong>:<br>
+      Trace joined the Marines after high school, serving two tours in Iraq. After his discharge, he used his GI Bill money to put himself through college at Texas A&M and earned a Bachelor Degree of Science in Chemistry. He then joined the FBI. After four years as a field agent, he transferred to FBI SWAT.<br>
+      <strong>Jackal's skills</strong>:<br>
+      Thermite is an important baseline in supporting the attacking team. Since he is one of the only agents in the game who specializes in opening breaches, losing Thermite at the beginning of the round will greatly hinder your team. Playing Thermite requires a lot of patience and leadership skills, as well as great communication with your team.<br>
+      <strong>Jackal's weapon</strong>:<br>
+      A Medium Armored Operator, Thermite is equipped with two Brimstone BC-3 Exothermic Charges. These charges can breach through any Reinforced Wall within a few seconds. Exothermic Charges can't be detonated while inside a Signal Disruptor's radius, and are destroyed on a Reinforced Wall under a Shock Wire's effect. Exothermic Charges take a bit of "heat up" time to detonate after triggered. They can also be shot through when triggered on Non-Reinforced Walls.<p><br>
+      <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="miraText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Mira's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Mira's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="sbuboText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+        <p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="yingText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Ying's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Ying's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="lesionText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Lesion's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Lesion's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="grobownText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+     xbbbcv.<br>
+      <strong>Castle's weapon</strong>:<br>
+      <p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="zofiaText">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Zofia's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Zofia's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="elaText" class="textColor"> 
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Ela's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Ela's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="smbwnText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+    eam.<br>
+      <strong>Castle's skills</strong>:<br>
+      Castle  Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Castle's weapon</strong>:<br>
+      Castle’s gadget of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="dokkaebiText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Dokkaebi's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Dokkaebi's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="vigilText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Vigil's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Vigil's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="cbrnchmrText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Ca.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="lionText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Lion's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Lion's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="finkaText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Finka's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Finka's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+</div>
+<div id="gispbText" class="textColor">
+  <p>
+    <strong>Biography</strong>:<br>
+    Ash is a fast front-line agent, able to infiltrate discreetly, bypass the .<p><br>
+   <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+</div>
+<div id="maestroText">
+    <p>
+      <strong>Biography</strong>:<br>
+      Trace joined the Marines after high school, serving two tours in Iraq. After his discharge, he used his GI Bill money to put himself through college at Texas A&M and earned a Bachelor Degree of Science in Chemistry. He then joined the FBI. After four years as a field agent, he transferred to FBI SWAT.<br>
+      <strong>Maestro's skills</strong>:<br>
+      Thermite is an important baseline in supporting the attacking team. Since he is one of the only agents in the game who specializes in opening breaches, losing Thermite at the beginning of the round will greatly hinder your team. Playing Thermite requires a lot of patience and leadership skills, as well as great communication with your team.<br>
+      <strong>Maestro's weapon</strong>:<br>
+      A Medium Armored Operator, Thermite is equipped with two Brimstone BC-3 Exothermic Charges. These charges can breach through any Reinforced Wall within a few seconds. Exothermic Charges can't be detonated while inside a Signal Disruptor's radius, and are destroyed on a Reinforced Wall under a Shock Wire's effect. Exothermic Charges take a bit of "heat up" time to detonate after triggered. They can also be shot through when triggered on Non-Reinforced Walls.<p><br>
+      <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="alibiText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Alibi's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Alibi's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="gsutrgsText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      C inst
+      <strong>Castle's weapon</strong>:<br>
+      Castle’s gadf three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="maverickText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Maverick's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Maverick's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="clashText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Clash's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Clash's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="gigrwbText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and 
+      Opep><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="nomadText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Nomad's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Nomad's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="kaidText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Kaid's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Kaid's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="sasrbhText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Crtrong>:<br>
+      Cas a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="gridlockText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Gridlock's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Gridlock's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="mozzieText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Mozzie's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Mozzie's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable"> Back to operator's table</a></p>
+  </div>
+  <div id="recrutText" class="textColor">
+    <p>
+      <strong>Biography</strong>:<br>
+      Campbell graduated from Cal State LA with a bachelor's degree in Science and Criminal Justice and promptly joined the LAPD. After five years on the job, he was assigned to the LAPD SWAT team where he excelled at for three years before being transferred to the FBI. Campbell spent two years as an FBI field agent when his career had taken a natural progression as he was reassigned to the FBI SWAT team.<br>
+      <strong>Castle's skills</strong>:<br>
+      Castle carries three Armor Panels, which he can deploy in place of a normal wooden barricade for doorways and windows. The Armor Panels are completely bulletproof and are far tougher than normal barricades. Castle's Armor Panels can be destroyed manually if hit with a melee attack 12 times. This property can be used to anyone's advantage. By pre-hitting the Armor Panels 11 times, an Operator can then destroy it with one melee attack, giving a surprise to enemies behind it. If a Defender has any Impact Grenades on them, they can use them to instantly destroy his Armor Panels as well for the same tactic.
+      Operators cannot break holes in Armor Panels easily, restricting them from looking through any holes made. Armor Panels take increased time for Defenders to pull off.,Any Armor Panel taken down by Defenders restores another one for Castle.<br>
+      <strong>Castle's weapon</strong>:<br>
+      Castle’s gadget is a superior version of the standard barricade. These armoured panels are resistant to weapon fire, but are still susceptible to any explosive breaching method or hits from your rifle’s buttstock. It is worth noting there is a maximum of three armoured panels that can be deployed at any given time.<p><br>
+     <p><strong><a href="#wholeTable" class="textColor"> Back to operator's table</a></p>
+  </div>
+
+<div class="footer">
+        <div class="footerOne">
+                <img href="imageHeader16.jpg" style="width:100%">
+        </div>
+         
+</div>
+<script>
+  
+document.getElementById("ash").onmouseover = function() {mouseOverAsh()};
+document.getElementById("ash").onmouseout = function() {mouseOutAsh()};
+
+document.getElementById("thermite").onmouseover = function() {mouseOverThermite()};
+document.getElementById("thermite").onmouseout = function() {mouseOutThermite()};
+
+document.getElementById("castle").onmouseover = function() {mouseOverCastle()};
+document.getElementById("castle").onmouseout = function() {mouseOutCastle()};
+
+document.getElementById("pulse").onmouseover = function() {mouseOverPulse()};
+document.getElementById("pulse").onmouseout = function() {mouseOutPulse()};
+
+document.getElementById("twitch").onmouseover = function() {mouseOverTwitch()};
+document.getElementById("twitch").onmouseout = function() {mouseOutTwitch()};
+
+document.getElementById("montagne").onmouseover = function() {mouseOverMontagne()};
+document.getElementById("montagne").onmouseout = function() {mouseOutMontagne()};
+
+document.getElementById("doc").onmouseover = function() {mouseOverDoc()};
+document.getElementById("doc").onmouseout = function() {mouseOutDoc()};
+
+document.getElementById("rook").onmouseover = function() {mouseOverRook()};
+document.getElementById("rook").onmouseout = function() {mouseOutRook()};
+
+
+document.getElementById("glaz").onmouseover = function() {mouseOverGlaz()};
+document.getElementById("glaz").onmouseout = function() {mouseOutGlaz()};
+
+document.getElementById("fuze").onmouseover = function() {mouseOverFuze()};
+document.getElementById("fuze").onmouseout = function() {mouseOutFuze()};
+
+document.getElementById("kapkan").onmouseover = function() {mouseOverKapkan()};
+document.getElementById("kapkan").onmouseout = function() {mouseOutKapkan()};
+
+document.getElementById("tachanka").onmouseover = function() {mouseOverTachanka()};
+document.getElementById("tachanka").onmouseout = function() {mouseOutTachanka()};
+
+
+document.getElementById("blitz").onmouseover = function() {mouseOverBlitz()};
+document.getElementById("blitz").onmouseout = function() {mouseOutBlitz()};
+
+document.getElementById("iq").onmouseover = function() {mouseOverIQ()};
+document.getElementById("iq").onmouseout = function() {mouseOutIQ()};
+
+document.getElementById("jager").onmouseover = function() {mouseOverJager()};
+document.getElementById("jager").onmouseout = function() {mouseOutJager()};
+
+document.getElementById("bandit").onmouseover = function() {mouseOverBandit()};
+document.getElementById("bandit").onmouseout = function() {mouseOutBandit()};
+
+
+document.getElementById("buck").onmouseover = function() {mouseOverBuck()};
+document.getElementById("buck").onmouseout = function() {mouseOutBuck()};
+
+document.getElementById("frost").onmouseover = function() {mouseOverFrost()};
+document.getElementById("frost").onmouseout = function() {mouseOutFrost()};
+
+
+document.getElementById("blackbeard").onmouseover = function() {mouseOverBlackbeard()};
+document.getElementById("blackbeard").onmouseout = function() {mouseOutBlackbeard()};
+
+document.getElementById("valkyrie").onmouseover = function() {mouseOverValkyrie()};
+document.getElementById("valkyrie").onmouseout = function() {mouseOutValkyrie()};
+
+
+document.getElementById("capitao").onmouseover = function() {mouseOverCapitao()};
+document.getElementById("capitao").onmouseout = function() {mouseOutCapitao()};
+
+document.getElementById("caveira").onmouseover = function() {mouseOverCaveira()};
+document.getElementById("caveira").onmouseout = function() {mouseOutCaveira()};
+
+
+document.getElementById("hibana").onmouseover = function() {mouseOverHibana()};
+document.getElementById("hibana").onmouseout = function() {mouseOutHibana()};
+
+document.getElementById("echo").onmouseover = function() {mouseOverEcho()};
+document.getElementById("echo").onmouseout = function() {mouseOutEcho()};
+
+document.getElementById("jackal").onmouseover = function() {mouseOverJackal()};
+document.getElementById("jackal").onmouseout = function() {mouseOutJackal()};
+
+document.getElementById("mira").onmouseover = function() {mouseOverMira()};
+document.getElementById("mira").onmouseout = function() {mouseOutMira()};
+
+document.getElementById("ying").onmouseover = function() {mouseOverYing()};
+document.getElementById("ying").onmouseout = function() {mouseOutYing()};
+
+document.getElementById("lesion").onmouseover = function() {mouseOverLesion()};
+document.getElementById("lesion").onmouseout = function() {mouseOutLesion()};
+
+document.getElementById("hibana").onmouseover = function() {mouseOverHibana()};
+document.getElementById("hibana").onmouseout = function() {mouseOutHibana()};
+
+document.getElementById("zofia").onmouseover = function() {mouseOverZofia()};
+document.getElementById("zofia").onmouseout = function() {mouseOutZofia()};
+
+document.getElementById("ela").onmouseover = function() {mouseOverEla()};
+document.getElementById("ela").onmouseout = function() {mouseOutEla()};
+
+
+document.getElementById("dokkaebi").onmouseover = function() {mouseOverDokkaebi()};
+document.getElementById("dokkaebi").onmouseout = function() {mouseOutDokkaebi()};
+
+document.getElementById("vigil").onmouseover = function() {mouseOverVigil()};
+document.getElementById("vigil").onmouseout = function() {mouseOutVigil()};
+
+
+document.getElementById("lion").onmouseover = function() {mouseOverLion()};
+document.getElementById("lion").onmouseout = function() {mouseOutLion()};
+
+document.getElementById("finka").onmouseover = function() {mouseOverFinka()};
+document.getElementById("finka").onmouseout = function() {mouseOutFinka()};
+
+document.getElementById("maestro").onmouseover = function() {mouseOverMaestro()};
+document.getElementById("maestro").onmouseout = function() {mouseOutMaestro()};
+
+document.getElementById("alibi").onmouseover = function() {mouseOverAlibi()};
+document.getElementById("alibi").onmouseout = function() {mouseOutAlibi()};
+
+document.getElementById("maverick").onmouseover = function() {mouseOverMaverick()};
+document.getElementById("maverick").onmouseout = function() {mouseOutMaverick()};
+
+document.getElementById("clash").onmouseover = function() {mouseOverClash()};
+document.getElementById("clash").onmouseout = function() {mouseOutClash()};
+
+
+document.getElementById("nomad").onmouseover = function() {mouseOverNomad()};
+document.getElementById("nomad").onmouseout = function() {mouseOutNomad()};
+
+document.getElementById("kaid").onmouseover = function() {mouseOverKaid()};
+document.getElementById("kaid").onmouseout = function() {mouseOutKaid()};
+
+
+document.getElementById("gridlock").onmouseover = function() {mouseOverGridlock()};
+document.getElementById("gridlock").onmouseout = function() {mouseOutGridlock()};
+
+document.getElementById("mozzie").onmouseover = function() {mouseOverMozzie()};
+document.getElementById("mozzie").onmouseout = function() {mouseOutMozzie()};
+
+document.getElementById("recrut").onmouseover = function() {mouseOverRecrut()};
+document.getElementById("recrut").onmouseout = function() {mouseOutRecrut()};
+
+
+
+function mouseOverAsh() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableAsh.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutAsh() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverThermite() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableThermite.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutThermite() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverCastle() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableCastle.jxr")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutCastle() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+function mouseOverPulse() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTablePulse.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutPulse() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverTwitch() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableTwitch.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutTwitch() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverMontagne() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableMontagne.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+function mouseOutMontagne() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverDoc() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableDoc.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+function mouseOutDoc() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverRook() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableRook.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutRook() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+
+
+function mouseOverGlaz() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableGlaz.png")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutGlaz() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverFuze() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableFuze.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutFuze() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverKapkan() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableKapkan.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutKapkan() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverSpetsnaz() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableRecrut.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutTachanka() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverTachanka() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableTachanka.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutTachanka() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+
+
+function mouseOverBlitz() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableBlitz.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutBlitz() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverIQ() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableIQ2.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutIQ() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverJager() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableJager.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutJager() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverBandit() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableBandit2.png")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutBandit() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+
+
+function mouseOverBuck() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableBuck.png")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutBuck() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+
+
+function mouseOverFrost() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableFrost.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutFrost() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+
+function mouseOverBlackbeard() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableBlackbeard.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutBlackbeard() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+
+function mouseOverValkyrie() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableValkyrie.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutValkyrie() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+
+
+
+function mouseOverCapitao() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableCapitao.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutCapitao() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverCaveira() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableCaveira.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutCaveira() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+
+function mouseOverHibana() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableHibana.png")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutHibana() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverEcho() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableEcho.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutEcho() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+
+function mouseOverJackal() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableJackal.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutJackal() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverMira() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableMira.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutMira() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+
+function mouseOverYing() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableYing2.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutYing() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverLesion() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableLesion.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutLesion() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+
+function mouseOverZofia() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableZofia.png")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutZofia() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverEla() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableEla.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutEla() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+
+function mouseOverDokkaebi() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableDokkaebi.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutDokkaebi() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverVigil() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableVigil.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutVigil() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverLion() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableLion.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutLion() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverFinka() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableFinka.png")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutFinka() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+
+function mouseOverMaestro() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableMaestro.jxr")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutMaestro() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverAlibi() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableAlibi.jxr")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutAlibi() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+
+function mouseOverMaverick() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableMaverick.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutMaverick() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverClash() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableClash.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutClash() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+
+
+
+function mouseOverNomad() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableNomad.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutNomad() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverKaid() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableKaid.jxr")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutKaid() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+
+function mouseOverGridlock() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableGridlock.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutGridlock() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+function mouseOverMozzie() {
+  document.getElementById("wholeTable").style.backgroundImage = 'url("imageTableMozzie.jpg")';
+  document.getElementById("wholeTable").style.backgroundSize = "cover";
+  document.getElementById("wholeTable").style.backgroundRepeat = "no-repeat";
+  document.getElementById("wholeTable").style.backgroundPosition = "center";
+}
+
+function mouseOutMozzie() {
+  document.getElementById("wholeTable").style.backgroundImage = "";
+}
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+/*var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    var i;
+    var slidesImages = document.getElementsByClassName("mySlides");
+    for(i = 0; i < slidesImages.length; i++) {
+        slidesImages[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slidesImages.length) {slideIndex=1};
+     slidesImages[slideIndex-1].style.display = "block";
+     setTimeOut(showSlides, 2000);
+}
+*/
+</script>
+</body>
+</html> 
